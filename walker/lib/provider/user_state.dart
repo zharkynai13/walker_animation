@@ -28,7 +28,7 @@ class _UserStatsState extends State<UserStats> {
           const InfoWidget(
             filePath: "assets/icons/fire.svg",
             topText: "1,880",
-            bottomText: "Calories",
+            bottomText: "Калориялар",
           ),
           SizedBox(
             height: 20.sp,
@@ -36,7 +36,7 @@ class _UserStatsState extends State<UserStats> {
           const InfoWidget(
             filePath: "assets/icons/steps.svg",
             topText: "5,248",
-            bottomText: "steps",
+            bottomText: "кадамдар",
           ),
           SizedBox(
             height: 20.sp,
@@ -44,7 +44,7 @@ class _UserStatsState extends State<UserStats> {
           const InfoWidget(
             filePath: "assets/icons/moon.svg",
             topText: "5.6",
-            bottomText: "hours",
+            bottomText: "убакыт",
           ),
         ],
       );

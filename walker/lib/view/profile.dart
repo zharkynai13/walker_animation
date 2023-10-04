@@ -36,18 +36,18 @@ class _ProfileState extends State<Profile> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "PROFILE",
+                    "Портфолио",
                     style: TextStyle(
                         fontSize: 24.sp,
                         color: textColor,
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "NJ",
+                    "Ж",
                     style: TextStyle(fontSize: 84.sp, color: textColor),
                   ),
                   Text(
-                    "23 years old",
+                    "23 жашта",
                     style:
                     TextStyle(fontSize: 16.sp, color: Colors.grey.shade500),
                   ),
@@ -63,7 +63,7 @@ class _ProfileState extends State<Profile> {
           child: Column(
             children: [
               Text(
-                "Daily goals",
+                "Кунумдук басуу",
                 style: TextStyle(
                     color: Colors.grey.shade400, fontWeight: FontWeight.bold),
               ),
@@ -73,7 +73,7 @@ class _ProfileState extends State<Profile> {
               const ProfileStats(
                 iconPath: "assets/icons/fire.svg",
                 bgColor: ring1Color,
-                text1: "Calories",
+                text1: "Калория",
                 text2: "2,140",
               ),
               SizedBox(
@@ -82,7 +82,7 @@ class _ProfileState extends State<Profile> {
               const ProfileStats(
                 iconPath: "assets/icons/steps.svg",
                 bgColor: ring2Color,
-                text1: "Steps",
+                text1: "Кадамдар",
                 text2: "3,500",
               ),
               SizedBox(
@@ -91,7 +91,7 @@ class _ProfileState extends State<Profile> {
               const ProfileStats(
                 iconPath: "assets/icons/moon.svg",
                 bgColor: ring3Color,
-                text1: "Sleep",
+                text1: "Уйку",
                 text2: "8h",
               )
             ],

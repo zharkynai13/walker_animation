@@ -69,7 +69,7 @@ class _WalkerState extends State<Walker> {
                       height: 10.h,
                     ),
                     Text(
-                      "Morning Walk",
+                      "Эртен мененки \nсейилдоо",
                       style: TextStyle(
                           color: textColor,
                           fontSize: 18.sp,
@@ -79,7 +79,7 @@ class _WalkerState extends State<Walker> {
                       height: 5.h,
                     ),
                     const Text(
-                      "2km in 30 mins",
+                      "2km  30 min да",
                       style: TextStyle(color: Colors.grey),
                     ),
                   ],
@@ -117,16 +117,16 @@ class TopLeftStat2 extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "JOURNAL",
+          "ЖУРНАЛ",
           style: TextStyle(
               fontSize: 24.sp, color: textColor, fontWeight: FontWeight.bold),
         ),
         Text(
-          "13",
+          "3",
           style: TextStyle(fontSize: 84.sp, color: textColor),
         ),
         Text(
-          "Sept 2021",
+          "Окт 2023",
           style: TextStyle(fontSize: 16.sp, color: Colors.grey.shade500),
         )
       ],

@@ -45,14 +45,14 @@ class _MainScreenState extends State<MainScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "A Simple way to \nstay healthy",
+                      "Туура жашоого \nжонокой жол",
                       style: TextStyle(color: textColor, fontSize: 18.sp),
                     ),
                     SizedBox(
                       height: 10.r,
                     ),
                     const Text(
-                      "DR Melissa",
+                      "Пицца",
                       style: TextStyle(color: Colors.grey),
                     ),
                   ],

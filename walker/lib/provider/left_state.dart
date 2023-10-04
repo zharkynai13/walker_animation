@@ -12,7 +12,7 @@ class TopLeftStat1 extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "DAILY GOAL",
+          "Кундун максаты",
           style: TextStyle(
               fontSize: 24.sp, color: textColor, fontWeight: FontWeight.bold),
         ),
